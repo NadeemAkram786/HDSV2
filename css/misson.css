@@ -271,33 +271,3 @@ a {
         column-gap: 3.5rem;
     }
 }
-
-/* Hero section */
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-    background: url("../images/home/laptop.jpg") no-repeat center center/cover;
-    position: relative;
-    color: #fff;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-}
-
-.hero h2,
-.hero h1,
-.hero h3,
-.hero a {
-    z-index: 10;
-}
