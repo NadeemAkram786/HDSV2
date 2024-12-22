@@ -364,3 +364,81 @@ a {
         font-size: 20px;
     }
 }
+
+/* quote */
+.quote {
+    background: black;
+    color: #fff;
+    border-bottom: 10px solid grey;
+}
+
+.quote-items {
+    max-width: 1100px;
+    margin: auto;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote-items p {
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+}
+
+/* why */
+.why {
+    background: #fff;
+    padding: 100px 20px;
+}
+
+.why-items {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #333;
+}
+
+.why-choose h1 {
+    margin-bottom: 20px;
+}
+
+.why-choose > *:nth-child(2) {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.why-choose > *:nth-child(3) {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.why-choose > *:nth-child(4) {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.why-shield {
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.why-shield img {
+    width: 150px;
+}
+
+@media (max-width: 604px) {
+    .why-items {
+        grid-template-columns: 1fr;
+    }
+
+    .why-choose {
+        margin-bottom: 30px;
+    }
+}
