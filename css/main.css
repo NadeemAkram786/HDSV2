@@ -296,7 +296,7 @@ a {
     width: 100%;
     height: 100%;
     background: var(--blue-color);
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .hero-items {
@@ -580,6 +580,49 @@ a {
 
     .card-wrapper .swiper-slide-button {
         display: none;
+    }
+}
+
+/* Partner */
+.partner-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+.partner-text {
+    text-align: center;
+    padding: 50px 0;
+    margin: 10px 0;
+}
+
+.partner-text hr {
+    background-color: var(--blue-color);
+    width: 12%;
+    height: 3px;
+    margin: auto;
+}
+
+.partner-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+.partner-logo img {
+    width: 80px;
+}
+
+@media (max-width: 682px) {
+   .partner-logo {
+       grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (max-width: 386px) {
+    .partner-logo {
+        grid-template-columns: 1fr;
     }
 }
 
