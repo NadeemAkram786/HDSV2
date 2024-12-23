@@ -18,7 +18,6 @@ if(navClose){
 }
 
 /* slider script */
-/* slider script */
 new Swiper('.card-wrapper', {
     loop: true,
     spaceBetween: 30,

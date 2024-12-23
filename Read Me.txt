@@ -1,0 +1,2 @@
+1. Navbar, Hero, Banner, Slider has been designed.
+2. Theme changed to blue.
